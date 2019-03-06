@@ -1,0 +1,149 @@
+.table {
+
+    display: table;
+    width:350px; 
+    margin:0 auto;
+}
+
+.row {
+    display: table-row;
+}
+
+.leftcol,.middlecol, .rightcol {
+    display: table-cell;
+}
+
+#loginbtn {
+
+  background-color: #0B9005;
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#regbtn {
+
+  text-decoration: none;
+  background-color: #0A88F8;
+  color: #ffffff;
+  padding: 5px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+
+#bckloginbtn{
+
+  text-decoration: none;  
+  padding: 5px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 5px;
+}
+
+
+/****************************Styles for index.php***********************/
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.columnr {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+.rowMain:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.titlel{
+  float:left;
+  width:50%;
+}
+
+.titler{
+  float:right;
+  width:50%;
+}
+
+footer {
+   position:absolute;
+   bottom:0;
+   width:90%;
+   height:60px;
+}
+
+.btnIncomplete{
+  background-color:#FFFF00;
+  border:0;
+  padding:2px;color:#FFF;
+}
+.btnComplete{
+  background-color:#b2beb5;
+  border:0;padding:2px;color:#FFF;
+}
+.btnEditAction, .btnEditActionNote{
+  background-color:#2FC332;
+  border:0;padding:2px;
+  color:#FFF;
+}
+.btnDeleteAction, .btnDeleteActionNote{
+  background-color:#D60202;
+  border:0;
+  padding:2px;color:#FFF;
+  margin-bottom:15px;
+}
+#btnAddAction, #btnAddActionNote{
+
+  background-color:#09F;
+  border:0;padding:5px 10px;color:#FFF;
+}
+.tabletodo {
+
+    display: table;
+    width:350px; 
+    margin:0 auto;
+}
+
+.tablenote {
+
+    display: table;
+    width:350px; 
+    margin:0 auto;
+}
+
+.rowtodo, .rownote {
+    display: table-row;
+}
+
+.leftcoltodo,.statuscoltodo,.middlecoltodo,.rightcoltodo{
+    display: table-cell;
+    border-bottom: 1px solid #000000;
+    padding-top:10px;
+}
+
+.leftcolnote,.middlecolnote,.rightcolnote {
+    display: table-cell;
+    border-bottom: 1px solid #000000;
+    padding-top:5px;
+}
+/*********************End of styles for index.php *********************/
+
+
