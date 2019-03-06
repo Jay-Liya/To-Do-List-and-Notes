@@ -19,8 +19,14 @@
 <div class="titler">Notes</div>
 <div class="rowMain">
 	<div class="columnr" style="background-color:#BCBCC0;">
-		<input type="text" id="txtmessageNote" >
-		<button id="btnAddActionNote" name="submitNote" onClick="callCrudActionNote('add','','<?php echo $_COOKIE['username'];?>')">Create</button>
+		<div class="tabletodo">
+			<div  class="rowtodo" >
+				<div class="leftcol">
+					<input type="text" id="txtmessageNote" >
+					<button id="btnAddActionNote" name="submitNote" onClick="callCrudActionNote('add','','<?php echo $_COOKIE['username'];?>')">Create</button>
+				</div>
+			</div>
+		</div>
 		<div id="comment-list-box-note" class="tablenote">
 			<?php
 			$notes = $db_handle->runQuery("SELECT * FROM tp_notes where username='".$_COOKIE['username']."'");
