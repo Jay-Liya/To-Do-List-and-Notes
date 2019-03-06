@@ -14,7 +14,6 @@ if(!empty($action)) {
 					<div class="leftcolnote">
 						<div class="message-content-note">' . $_POST["txtmessageNote"] . '</div>
 					</div>
-					</div>
 					<div class="middlecolnote">
 						<button class="btnEditActionNote" name="editNote" onClick="showEditBoxNote(' . $insert_id . ')">Edit</button>
 					</div>
